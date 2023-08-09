@@ -37,7 +37,9 @@ int main()
             // TODO: （在此处为应用程序的行为编写代码）要做的事：socket、bind、listen、accept、read、write、close。万年不变，只是linux和windows函数不同
             //套接字初始化（在wid下面需要环境初始化，linux不需要
             //server;
-
+            {
+                //CServerSocket local; 
+            }
             CServerSocket*pserver=  CServerSocket::getInstance();
             int count= 0;
             if (pserver->InitSocket() == false) {    
